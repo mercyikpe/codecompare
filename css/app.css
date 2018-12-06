@@ -1,0 +1,36 @@
+/*heading section*/
+
+.heading-section {
+	border-bottom: 1px solid #e6e6e6
+}
+ 
+.page-heading {
+	color: #3fa9f5;
+}
+
+
+.accordion .card-header:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f068";
+    vertical-align: middle;
+    font-weight: 900;
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+.code-section {
+	background: #333333;
+}
+
+.code-col {
+	color: #959595;
+}
+.vr {
+    width:1px;
+    background-color:#000;
+    position:relative;
+    top:0;
+    bottom:0;
+}
